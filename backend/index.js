@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const { exec } = require('child_process');
-const floodDataRoute = require('./routes/floodData'); 
+const floodDataRoute = require('./routes/flooddata'); 
 const app = express();
 app.use(cors());
 app.use(express.json());
